@@ -2,144 +2,6 @@
 
 # Sử dụng Bitcoin
 ---
-## Slideshow
-
-<div class="slideshow-container">
-  <div class="mySlides fade">
-    <img src="evolution of money by anil - Vietnamese (2)_00001.jpg" style="width:100%">
-  </div>
-  <div class="mySlides fade">
-    <img src="evolution of money by anil - Vietnamese (2)_00002.jpg" style="width:100%">
-  </div>
-  <div class="mySlides fade">
-    <img src="evolution of money by anil - Vietnamese (2)_00003.jpg" style="width:100%">
-  </div>
-  <div class="mySlides fade">
-    <img src="evolution of money by anil - Vietnamese (2)_00004.jpg" style="width:100%">
-  </div>
-  <div class="mySlides fade">
-    <img src="evolution of money by anil - Vietnamese (2)_00005.jpg" style="width:100%">
-  </div>
-  <div class="mySlides fade">
-    <img src="evolution of money by anil - Vietnamese (2)_00006.jpg" style="width:100%">
-  </div>
-  <div class="mySlides fade">
-    <img src="evolution of money by anil - Vietnamese (2)_00007.jpg" style="width:100%">
-  </div>
-  <div class="mySlides fade">
-    <img src="evolution of money by anil - Vietnamese (2)_00004.jpg" style="width:100%">
-  </div>
-  <div class="mySlides fade">
-    <img src="evolution of money by anil - Vietnamese (2)_00008.jpg" style="width:100%">
-  </div>
-  <div class="mySlides fade">
-    <img src="evolution of money by anil - Vietnamese (2)_00009.jpg" style="width:100%">
-  </div>
-  <div class="mySlides fade">
-    <img src="evolution of money by anil - Vietnamese (2)_00010.jpg" style="width:100%">
-  </div>
-  <div class="mySlides fade">
-    <img src="evolution of money by anil - Vietnamese (2)_00011.jpg" style="width:100%">
-  </div>
-  <div class="mySlides fade">
-    <img src="evolution of money by anil - Vietnamese (2)_00012.jpg" style="width:100%">
-  </div>
-  <div class="mySlides fade">
-    <img src="evolution of money by anil - Vietnamese (2)_00013.jpg" style="width:100%">
-  </div>
-  <div class="mySlides fade">
-    <img src="evolution of money by anil - Vietnamese (2)_00014.jpg" style="width:100%">
-  </div>
-  <div class="mySlides fade">
-    <img src="evolution of money by anil - Vietnamese (2)_00015.jpg" style="width:100%">
-  </div>
-  <div class="mySlides fade">
-    <img src="evolution of money by anil - Vietnamese (2)_00016.jpg" style="width:100%">
-  </div>
-  <div class="mySlides fade">
-    <img src="evolution of money by anil - Vietnamese (2)_00017.jpg" style="width:100%">
-  </div>
-  <div class="mySlides fade">
-    <img src="evolution of money by anil - Vietnamese (2)_00018.jpg" style="width:100%">
-  </div>
-  <div class="mySlides fade">
-    <img src="evolution of money by anil - Vietnamese (2)_00019.jpg" style="width:100%">
-  </div>
-  <div class="mySlides fade">
-    <img src="evolution of money by anil - Vietnamese (2)_00020.jpg" style="width:100%">
-  </div>
-  <div class="mySlides fade">
-    <img src="evolution of money by anil - Vietnamese (2)_00021.jpg" style="width:100%">
-  </div>
-  <div class="mySlides fade">
-    <img src="evolution of money by anil - Vietnamese (2)_00022.jpg" style="width:100%">
-  </div>
-  <div class="mySlides fade">
-    <img src="evolution of money by anil - Vietnamese (2)_00023.jpg" style="width:100%">
-  </div>
-  <div class="mySlides fade">
-    <img src="evolution of money by anil - Vietnamese (2)_00024.jpg" style="width:100%">
-  </div>
-  <div class="mySlides fade">
-    <img src="evolution of money by anil - Vietnamese (2)_00025.jpg" style="width:100%">
-  </div>
-  <div class="mySlides fade">
-    <img src="evolution of money by anil - Vietnamese (2)_00026.jpg" style="width:100%">
-  </div>
-  <div class="mySlides fade">
-    <img src="evolution of money by anil - Vietnamese (2)_00027.jpg" style="width:100%">
-  </div>
-  <div class="mySlides fade">
-    <img src="evolution of money by anil - Vietnamese (2)_00028.jpg" style="width:100%">
-  </div>
-  <div class="mySlides fade">
-    <img src="evolution of money by anil - Vietnamese (2)_00029.jpg" style="width:100%">
-  </div>
-  <div class="mySlides fade">
-    <img src="evolution of money by anil - Vietnamese (2)_00030.jpg" style="width:100%">
-  </div>
-  <div class="mySlides fade">
-    <img src="evolution of money by anil - Vietnamese (2)_00031.jpg" style="width:100%">
-  </div>
-  <div class="mySlides fade">
-    <img src="evolution of money by anil - Vietnamese (2)_00032.jpg" style="width:100%">
-  </div>
-  <div class="mySlides fade">
-    <img src="evolution of money by anil - Vietnamese (2)_00033.jpg" style="width:100%">
-  </div>
-  <div class="mySlides fade">
-    <img src="evolution of money by anil - Vietnamese (2)_00034.jpg" style="width:100%">
-  </div>
-  <div class="mySlides fade">
-    <img src="evolution of money by anil - Vietnamese (2)_00035.jpg" style="width:100%">
-  </div>
-</div>
-
-<!-- Navigation buttons -->
-  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-  <a class="next" onclick="plusSlides(1)">&#10095;</a>
-</div>
-
-<script>
-var slideIndex = 1;
-showSlides(slideIndex);
-
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
-
-function showSlides(n) {
-  var i;
-  var slides = document.getElementsByClassName("mySlides");
-  if (n > slides.length) {slideIndex = 1}    
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";  
-  }
-  slides[slideIndex-1].style.display = "block";  
-}
-</script>
-
 ## Tóm tắt nội dung
 
 ## 1. Chống Lạm Phát
@@ -162,6 +24,47 @@ Mối liên hệ giữa Bitcoin và các tài sản khác gần như không tồ
 
 ## 7. Thanh Toán Giá Trị Cao
 Mạng lưới Bitcoin cho phép dịch chuyển giá trị lớn một cách an toàn với chi phí thấp, trở thành phương thức thanh toán cuối cùng cho các giao dịch có giá trị cao.
+**Published Date:** March 2021  
+**Author:** Lyn Alden  
+**Original Article:** [Read on Lyn Alden's Website](https://www.lynalden.com/bitcoin-security-modeling/)
+
+---
+
+## Key Lessons
+
+### 1. Transition from Block Rewards to Transaction Fees
+- **Lesson:** Bitcoin is transitioning from a block-reward-driven security model to a fee-based one, as block rewards are halved over time. This transition poses potential security risks but is manageable if the network can sustain a healthy fee market.
+- **Example:** Currently, miners are rewarded with newly generated bitcoins. As of 2021, the reward is 6.25 bitcoins per block, but as the reward decreases, transaction fees must increase to maintain the same level of security.
+
+### 2. Security Through Economic Incentives
+- **Lesson:** Bitcoin’s security relies on economic incentives. The high cost of mining and maintaining a 51% attack is a deterrent, ensuring that miners are incentivized to maintain network integrity rather than disrupt it.
+- **Example:** A state actor attempting a 51% attack would face significant costs in terms of acquiring hardware and electricity, making such an attack impractical.
+
+### 3. Developing a Fee Market
+- **Lesson:** To ensure security in the long term, Bitcoin must develop a sustainable fee market. Fees are expected to play an increasingly critical role as block rewards diminish over time.
+- **Example:** In 2021, the annualized fee spend rate was approximately $1.85 billion, representing about 0.25% of Bitcoin's market capitalization. As adoption grows, fee-based security will become more important.
+
+### 4. Layering Solutions for Scalability
+- **Lesson:** Bitcoin’s base layer is designed for high-value settlements, while smaller transactions are expected to occur on secondary layers like the Lightning Network, which allow for faster, low-cost transactions.
+- **Example:** The Lightning Network enables users to make small transactions off-chain, improving scalability while keeping fees manageable for large-scale transactions on the base layer.
+
+### 5. The Risk of Low Transaction Volume
+- **Lesson:** If Bitcoin experiences low transaction volume on its base layer, it could struggle to maintain security as fees would not be sufficient to deter attacks.
+- **Example:** If fewer users are willing to pay fees for on-chain transactions, Bitcoin could face security challenges, especially as the block reward continues to decrease.
+
+### 6. Economic Viability of Long-Term Security
+- **Lesson:** For Bitcoin to remain secure in the long term, fees must be sufficient to cover the costs of maintaining the network’s security. This requires broad adoption and continued use of the base layer for significant transactions.
+- **Example:** If the average transaction fee is $20, Bitcoin could generate over $2 billion annually in fees, ensuring long-term security for the network.
+
+## Conclusion
+
+Bitcoin's shift from a block-reward-driven security model to one based on transaction fees is a critical transition. As the network grows, the development of a robust fee market is essential to maintaining its security. Layering solutions like the Lightning Network will play an important role in scaling Bitcoin for smaller transactions, while the base layer will focus on large-value settlements.
+
+---
+
+**Download Link**: [Bitcoin: Fee-Based Security Modeling](https://www.lynalden.com/bitcoin-security-modeling/)  
+
+
 
 ## 8. Thay Thế Tính Thanh Khoản của Tài Sản Vật Chất
 Bitcoin với tính chất kỹ thuật số hoàn toàn và có thể kiểm tra công khai cung cấp tính thanh khoản cao hơn so với tài sản vật chất truyền thống.
